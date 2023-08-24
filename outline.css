@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('images/b1.jpg') center no-repeat scroll;
+    background-size: cover;
+    
+     border: 5px solid #ff0000;
+   /* outline-width: 10px;
+    outline-color: purple;
+    outline-style: solid;
+    outline-offset: 2px; */
+    outline: 10px dashed #000;
+   outline-offset:10px;
+   padding-top: 100px;
+   padding-left: 40px;
+}
+
+.container h1{
+    color: #fff;
+    font-size: 50px;
+}
